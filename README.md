@@ -10,4 +10,4 @@ npx hardhat compile
 npx hardhat run scripts/deploy.ts  --network mumbai
 
 # Verify
-npx hardhat verify <contractAdress>  --network mumbai
+npx hardhat verify contractAddress  --network mumbai
