@@ -1,2 +1,13 @@
-# WalletLedger
-Smart contract for maintaining wallets ledger or list
+# Wallet ledger Contract
+
+CDN Assessment 
+
+
+# Compile 
+npx hardhat compile
+
+# Deploy
+npx hardhat run scripts/deploy.ts  --network mumbai
+
+# Verify
+npx hardhat verify <contractAdress>  --network mumbai
